@@ -22,12 +22,7 @@ class Car extends Vehicle {
 }
 
 void main() {
-  // Create an object of the Car class.
   Car myCar = Car();
-
-  // Set the speed using the setSpeed method.
   myCar.setSpeed(80);
-
-  // Call the move method to print the speed.
   myCar.move();
 }
